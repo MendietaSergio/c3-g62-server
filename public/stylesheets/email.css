@@ -1,0 +1,222 @@
+body {
+    padding         : 0 50px;
+    font            : 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: rgb(33, 43, 13);
+}
+
+header {
+    top            : 50px;
+    height         : 100px;
+    display        : flex;
+    justify-content: center;
+    align-content  : center;
+    flex-direction : column;
+}
+
+.contenedor_img {
+    height         : 200px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    margin         : 0 auto;
+}
+
+.TickIcon {
+    width : 150px;
+    height: 150px;
+}
+
+.succes-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    font-size  : 40px;
+    text-align : center;
+    line-height: 100px;
+}
+
+.container_text_info {
+    height         : 250px;
+    /* width          : 80%; */
+    margin         : 0 auto;
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+    margin: 20px;
+}
+
+.text_info {
+    font-size : 30px;
+    text-align: center;
+}
+
+.container_span {
+    max-width       : 60%;
+    max-height      : 100%;
+    padding         : 30px;
+    margin          : 0 auto;
+    background-color: #F1E6DE;
+}
+
+.container_h1 {
+    height         : 100px;
+    width          : 80%;
+    margin         : 0 auto;
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+}
+
+.span_info {
+    font-size  : 30px;
+    font-weight: 400;
+}
+
+.container_span>span {
+    font-size: 30px;
+    height   : 100px;
+}
+
+.container_btn {
+    height        : 100px;
+    flex-direction: column;
+    display       : flex;
+    align-items   : center;
+}
+
+.btn-info {
+    cursor          : pointer !important;
+    width           : 150px !important;
+    font-weight     : bold !important;
+    background-color: #F1E6DE !important;
+    border-color    : #F1E6DE !important;
+}
+
+footer {
+    background-color: black;
+    height          : 200px;
+    width           : 100%;
+    color           : white;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : space-evenly;
+}
+
+.primary-footer {
+    margin-top     : 20;
+    width          : 80%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+hr {
+    width           : 100%;
+    height          : 1px;
+    margin-top      : 8px;
+    border          : none;
+    outline         : none;
+    background-color: white;
+    opacity         : 0.2;
+}
+
+
+
+
+li {
+
+    margin-left: 1em;
+    font-size  : 20px;
+    list-style : none;
+    display    : inline-block;
+
+
+}
+
+.secondary-footer {
+    margin-top        : 20;
+    width             : 80%;
+    display           : flex;
+    justify-content   : space-between;
+    align-items    : center;
+}
+
+.icon_redes {
+    width : 50px;
+    height: 50px;
+}
+
+.list_redes {
+    padding: 0;
+}
+
+.copy-right {
+    text-align : center;
+    font-family: Raleway, sans-serif;
+    font-size  : 0.9em;
+}
+
+.list_art {
+    display        : flex;
+    justify-content: start;
+    align-items    : start;
+    flex-direction : column;
+}
+
+.wrapperCard {
+    /* border         : 2px solid black;] */
+    border-radius  : 10px;
+    display        : flex;
+    align-items    : center;
+    padding        : 1.5rem;
+    overflow       : hidden;
+}
+
+.wrapperCard>figure {
+    border-radius: 50%;
+    line-height  : 0px;
+    overflow     : hidden;
+}
+
+/* div~div {
+    align-self: flex-end;
+} */
+
+.wrapperArtistName {
+    padding-left: .8rem;
+}
+
+.wrapperArtistName>div:first-child>a {
+    font-size  : 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.wrapperArtistName>div:last-child {
+    font-size  : 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    display        : flex;
+    justify-content: space-between;
+}
+
+.wrapperArtistName>div:last-child>span {
+    margin-left: 0.5rem;
+}
+.img_art{
+    width : 100%;
+    height : 100vh;
+    grid-row: 1 / 2;
+}
+@media only screen and (max-width: 439px) {
+
+    .primary-footer li {
+        font-size: 0.7rem;
+    }
+
+
+}
